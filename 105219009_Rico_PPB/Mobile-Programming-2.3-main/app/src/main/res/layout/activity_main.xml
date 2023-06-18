@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/openUrlButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:background="#F64F4F"
+        android:onClick="openYoutube"
+        android:text="Buka Youtube" />
+
+    <Button
+        android:id="@+id/openGoogleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/openUrlButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:background="#FF0000"
+        android:onClick="openGoogle"
+        android:text="Buka Google"
+        android:textColorHighlight="#F36363"
+        android:textColorLink="#F68686" />
+
+    <Button
+        android:id="@+id/openInstagramButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/openFacebookButton"
+        android:layout_centerHorizontal="true"
+        android:background="#291E1E"
+        android:onClick="openInstagram"
+        android:text="Buka Instagram" />
+
+    <Button
+        android:id="@+id/openFacebookButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/openGoogleButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:background="#C53636"
+        android:onClick="openFacebook"
+        android:text="Buka Facebook" />
+
+</RelativeLayout>

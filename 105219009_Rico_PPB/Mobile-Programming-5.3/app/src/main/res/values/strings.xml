@@ -1,0 +1,52 @@
+<!--
+  ~ Copyright (c) 2021 The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<resources>
+    <string name="app_name">105220045-Sports</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="list_fragment_label">Sports</string>
+    <string name="news_fragment_label">Sports News</string>
+
+    <string name="title_placeholder">Berita</string>
+    <string name="news_title">News</string>
+    <string name="sports_info_placeholder">Ini berita</string>
+    <string name="sports_news_detail_text">Disini isi berita yang akan ditampilkan nantinya semuanya</string>
+    />
+
+    <string name="baseball">Baseball</string>
+    <string name="badminton">Pencak Silat</string>
+    <string name="basketball">Kelereng</string>
+    <string name="bowling">Kartu Remi</string>
+    <string name="cycling">Gundu</string>
+    <string name="golf">Golf</string>
+    <string name="running">Berlari</string>
+    <string name="soccer">Sepak Bola</string>
+    <string name="swimming">Berenan</string>
+    <string name="table_tennis">Tenis Meja</string>
+    <string name="tennis">Tennis Ajah</string>
+
+    <string name="baseball_subtitle">Here is some Baseball news!</string>
+    <string name="badminton_subtitle">Here is some Pencak Silat news!</string>
+    <string name="basketball_subtitle">Here is some Kelereng news!</string>
+    <string name="bowling_subtitle">Here is some Kartu Remi news!</string>
+    <string name="cycling_subtitle">Here is some Gundu news!</string>
+    <string name="golf_subtitle">Here is some Golf news!</string>
+    <string name="running_subtitle">Here is some Running news!</string>
+    <string name="soccer_subtitle">Here is some Soccer news!</string>
+    <string name="swimming_subtitle">Here is some Swimming news!</string>
+    <string name="table_tennis_subtitle">Here is some Table Tennis news!</string>
+    <string name="tennis_subtitle">Here is some Tennis news!</string>
+</resources>
